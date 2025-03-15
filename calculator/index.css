@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-size: bold;
+}
+.container {
+  background-color: gray;
+  height: 40rem;
+  width: 25rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: 1px 0.5px 5px;
+}
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 5rem;
+  justify-content: space-around;
+  margin: 1rem;
+  height: 30rem;
+  border-radius: 10px;
+  font-size: bold;
+}
+input {
+  width: 22rem;
+  height: 4rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: white;
+}
+button {
+  border-radius: 0.5rem;
+  justify-content: space-around;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+}
+#equal {
+  grid-column: span 2;
+  background-color: brown;
+  border-radius: 1rem;
+}
+
+.operator {
+  background: red;
+}
+.operator:hover {
+  background-color: blue;
+  transition: ease-in-out;
+}
+#equal:hover {
+  background-color: black;
+}
